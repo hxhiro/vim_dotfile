@@ -1,12 +1,14 @@
-set number
-set autoindent
-set tabstop=2
-set shiftwidth=2
-set expandtab
-set splitright
-set clipboard=unnamed
-set hls
+set number            "行番号の表示
+set autoindent        "開業時の自動でインデント
+set tabstop=2         "タブを何文字の空白に変換するか
+set shiftwidth=2      "自動インデント時に入力する空白
+set expandtab         "タブ入力を空白に変換
+set splitright        "画面を縦に分割するときは右に開く
+set clipboard=unnamed "Yankしたときにクリップボードにコピー
+set hls               "検索した文字をハイライトする
 set runtimepath+=~/.cache/dein/repos/github.com/Shougo/dein.vim
+set list
+set listchars=tab:>\ ,trail:-,nbsp:+,eol:$
 
 if &compatible
   set nocompatible
