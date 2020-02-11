@@ -10,7 +10,6 @@ repo = 'Townk/vim-autoclose'
 [[plugins]]
 repo = 'joshdick/onedark.vim'
 hook_add = '''
-  colorscheme onedark
 '''
 
 [[plugins]]
@@ -49,4 +48,12 @@ hook_add = '''
 repo = 'vim-airline/vim-airline-themes'
 hook_add = '''
   let g:airline_theme='simple'
+'''
+[[plugins]]
+repo = 'roxma/nvim-yarp'
+
+[[plugins]]
+repo = 'roxma/vim-hug-neovim-rpc'
+hook_add = '''
+   let g:deoplete#enable_at_startup = 1
 '''
